@@ -1,7 +1,7 @@
 {
   "configurations": [
     {
-      "type": "pwa-chrome",
+      "type": "chrome",
       "name": "http://127.0.0.1:30000/",
       "request": "launch",
       "url": "http://127.0.0.1:30000/"

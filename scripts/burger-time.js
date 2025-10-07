@@ -32,6 +32,8 @@ Hooks.once('init', async => {
     default:
       system = new NoOpSystem(game.system)
       break;
+    case 'pf2e':
+      system = new Pf2eSystem(game.system)
   }
 
   // game.BurgerTime = BurgerTime
